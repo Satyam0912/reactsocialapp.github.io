@@ -1,0 +1,81 @@
+/* .post-container {
+ 
+} */
+
+.singlePost {
+    margin-bottom: 20px;
+}
+
+.singlePost-card {
+    box-shadow: 0 4px 8px 0 rgb(0, 251, 255), 0 6px 20px 0 rgb(0, 251, 255);
+}
+
+.photo-img {
+    height: 220px;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.spinner-wrapper {
+    margin: 20px 0;
+    color: blue;
+}
+
+.singlePost-header {
+    background-color: #3D0000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.singlePost-body {
+    background-color: #3D0000;
+    color: white;
+}
+
+.singlePost-btn {
+    background-color: inherit;
+    border: none;
+}
+
+.singlePost-btn:hover,
+.singlePost-btn:focus {
+    background-color: inherit;
+    box-shadow: 0 2px 8px 0 rgb(0, 251, 255), 0 2px 20px 0 rgb(0, 251, 255);
+}
+
+.justify-content-between,
+.align-items-start {
+    text-align: left;
+    margin-bottom: 2px;
+    border: 2px solid blueviolet;
+    background-color: #3D0000;
+    color: bisque;
+}
+
+.posts-column,
+.activemenber-column {
+    height: 100vh;
+    overflow: auto;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: blueviolet;
+    border-left: 4px solid #051367;
+    border-right: 4px solid #051367;
+}
+
+::-webkit-scrollbar-thumb {
+    background: blue;
+    box-shadow: 0 2px 8px 0 rgb(0, 251, 255), 0 2px 20px 0 rgb(0, 251, 255);
+    border-left: none;
+    border-right: none;
+    border-radius: 20px;
+}
